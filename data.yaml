@@ -1,7 +1,8 @@
 train: ../train/images
 val: ../valid/images
 test: ../test/images
-
+#Number of classes here 
 nc: 14
+#This should list should be identical to the classes.txt file
 names: ['Troop-Transport-Truck','Humvee','Mounted_Weapon','Army_4x4','Sat_Trailer','Army_Ground','Army_Air','Army_Navy','Guided_Missile_Launcher','Missile_Launcher','Army_Supply_Truck','Helicopter','Navy_OBMB','Watch_Tower']
 
